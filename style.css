@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;         /**/
+}
+
+body {
+    background: linear-gradient(to right, #7f00ff, #e100ff);  /**/
+}
+
+form {
+    width: 40%;
+    min-width: 350px;    /*para no se quebrar para mobile*/
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px;
+    margin: 100px auto;   /*acima abajo 100px y de los lados auto, para desemcostar do grude form esta arriba izq.*/
+    padding: 20px;        /*aqui da espaçamento del h1 que est grudado acima y del button que esta grudado abajo*/
+
+}
+
+form h1 {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+input, textarea {
+    min-width: 320px;
+    display: block;
+    margin: 0 auto;  /*centralizar, arriba 0, e auto de los lados*/
+    border-radius: 5px;
+    border: 1px solid #c1c1c1;
+    margin-top: 20px;
+    height: 40px;       /*altura del input quadradinho*/
+    padding-left: 10px; /*separa del lado izq as letras que seran digitadas*/
+}
+
+textarea {
+    height: 200px;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+button {
+    display: block;     /*para centralizar precisa del display block y margin como abajo*/
+    margin: 20px auto;  /*20 arriba y abajo, y auto de los lados para poder centralizar para usar el margin de este jeito sempre tem que star em display block*/
+    height: 40px;
+    min-width: 320px;
+    border: none;
+    border-radius: 5px;
+    background: #7f00ff;
+    color: #fff;
+    cursor: pointer;       
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
